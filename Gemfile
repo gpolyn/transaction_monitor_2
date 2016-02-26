@@ -15,6 +15,8 @@ group :development do
   gem 'spring'
 end
 gem 'devise'
+gem 'aggcat'
+gem 'dotenv-rails', :groups => [:development, :test]
 gem 'high_voltage'
 group :development do
   gem 'better_errors'
